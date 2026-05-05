@@ -1,5 +1,7 @@
 # Reference Anomaly Generation and Segmentation
 
+[![Hugging Face Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LiXiY/Reference-Anomaly-Generation)  
+
 **Reference-based Anomaly Image Generation via Inpainting**
 
 This project generates realistic anomaly images by transferring defect patterns from a reference anomaly image onto a normal (background) image within a user-defined inpainting mask region. 
