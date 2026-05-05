@@ -1,6 +1,11 @@
 # Reference Anomaly Generation and Segmentation
 
-[![Hugging Face Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LiXiY/Reference-Anomaly-Generation)  
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Online_Demo-Reference--Anomaly-blue)](https://huggingface.co/spaces/LiXiY/Reference-Anomaly-Generation)&#160;
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoint-Reference--Anomaly-yellow)](https://huggingface.co/LiXiY/ReferenceAnomaly)&#160;
+[![ModelScope Space](https://img.shields.io/badge/🤖%20Online_Demo-Reference--Anomaly-17c7a7)](https://www.modelscope.cn/studios/HuanJue/Reference_Anomaly_Generation)&#160;
+[![ModelScope Model](https://img.shields.io/badge/🤖%20Checkpoint-Reference--Anomaly-624aff)](https://www.modelscope.cn/models/HuanJue/ReferenceAnomaly)&#160;
+
 
 **Reference-based Anomaly Image Generation via Inpainting**
 
