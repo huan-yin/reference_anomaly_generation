@@ -12,9 +12,13 @@
 
 This project generates realistic anomaly images by transferring defect patterns from a reference anomaly image onto a normal (background) image within a user-defined inpainting mask region. 
 
+![generation visualization](visualization_results/generation_visualization.png)
+
 **Reference Anomaly Segmentation**
 
 By analyzing the model's attention maps over the reference anomaly image, we can directly localize and segment defect regions.
+
+![reference attention visualizaiton](visualization_results/reference_attention_visualizaiton.png)
 
 ## Table of Contents
 
@@ -44,12 +48,24 @@ This will:
 2. Create a Python 3.10 virtual environment in `.venv/`
 3. Install all dependencies from `requirement.txt`
 
-Then activate the environment:
+Then select the appropriate activation command based on your operating system and terminal:
 
+#### Linux
 ```bash
 source .venv/bin/activate
 ```
 
+#### Windows Command Prompt (CMD):
+  ```cmd
+  .venv\Scripts\activate.bat
+  ```
+
+#### Windows PowerShell:
+  ```powershell
+  .venv\Scripts\Activate.ps1
+  ```
+
+After successful activation, you will see `(.venv)` prefix in your terminal prompt, indicating that you are now working inside the virtual environment.
 ## Model Checkpoints
 
 **No need to download them in advance**. Models are automatically downloaded from HuggingFace Hub on first inference:
@@ -73,7 +89,6 @@ python model_inference.py \
 
 The generated image will be saved to `visualization_results/inference_image.png`.
 
-![generation visualization](visualization_results/generation_visualization.png)
 
 
 ## Gradio Web UI
@@ -107,7 +122,7 @@ python reference_anomaly_attention_map_visualizaiton.py
 
 Output is saved to `visualization_results/reference_image_attention_map.png`.
 
-![reference attention visualizaiton](visualization_results/reference_attention_visualizaiton.png)
+
 
 ## Acknowledgments
 
